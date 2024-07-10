@@ -1,0 +1,67 @@
+body {
+	background: #1e1e1e;
+	// background-color: #fff;
+	padding-top: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	color: #fff;
+	font-family: 'Merriweather', serif;
+}
+.container {
+	margin: auto;
+	max-width: 960px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	.header--top {
+		width: 490px;
+		height: 160px;
+		display: grid;
+		align-items: center;
+		justify-items: center;
+		text-align: center;
+		.header--nav {
+			svg {
+				position: absolute;
+				padding-left: 260px;
+				top: 155px;
+			}
+			width: 70%;
+			display: flex;
+			justify-content: space-between;
+			a {
+				z-index: 1;
+				color: #fff;
+				text-decoration: none;
+				transition: all 0.3s ease;
+				position: relative;
+				&::before {
+					content: '';
+					width: 0%;
+					height: 2px;
+					background-color: #fff;
+					position: absolute;
+					left: 0;
+					bottom: -5px;
+				}
+				&:hover {
+					text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.75);
+				}
+				&:hover::before {
+					width: 100%;
+					transition: all 0.5s ease;
+					border-radius: 0.5px;
+					background: #fff;
+					box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.75);
+				}
+			}
+		}
+	}
+	// Стили header__mid
+}
