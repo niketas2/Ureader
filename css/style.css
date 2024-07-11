@@ -153,7 +153,7 @@ header .header--mid .read-share-repeat .text--block .repeat--block svg {
 .main__block__read .read__block__title .title {
   display: flex;
   gap: 25px;
-  padding-left: 60px;
+  padding-left: 100px;
 }
 .main__block__read .read__block__title .title p {
   font-size: 52px;
@@ -193,6 +193,105 @@ header .header--mid .read-share-repeat .text--block .repeat--block svg {
   left: 200px;
 }
 .main__block__read .read__block__objects .white__phone {
+  max-width: 254px;
+  max-height: 838px;
+}
+
+.main__block__share {
+  margin-top: 200px;
+}
+.main__block__share .share__block__title .title {
+  padding-left: 200px;
+}
+.main__block__share .share__block__title .title p {
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 5.2px;
+}
+.main__block__share .share__block__objects {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.main__block__share .share__block__objects .share__block__text {
+  display: grid;
+  gap: 60px;
+}
+.main__block__share .share__block__objects .share__block__text .share__block__info {
+  display: flex;
+  position: relative;
+}
+.main__block__share .share__block__objects .share__block__text .share__block__info .text__info h1 {
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+}
+.main__block__share .share__block__objects .share__block__text .share__block__info .text__info p {
+  max-width: 170px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+}
+.main__block__share .share__block__objects svg {
+  position: absolute;
+  right: 200px;
+}
+.main__block__share .share__block__objects .white__phone {
+  max-width: 254px;
+  max-height: 838px;
+}
+
+.main__block__repeat {
+  margin-top: 200px;
+}
+.main__block__repeat .repeat__block__title .title {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding-left: 120px;
+}
+.main__block__repeat .repeat__block__title .title p {
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 5.2px;
+}
+.main__block__repeat .repeat__block__objects {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.main__block__repeat .repeat__block__objects .repeat__block__text {
+  display: grid;
+  gap: 60px;
+}
+.main__block__repeat .repeat__block__objects .repeat__block__text .repeat__block__info {
+  display: flex;
+  position: relative;
+}
+.main__block__repeat .repeat__block__objects .repeat__block__text .repeat__block__info .text__info h1 {
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+}
+.main__block__repeat .repeat__block__objects .repeat__block__text .repeat__block__info .text__info p {
+  max-width: 170px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+}
+.main__block__repeat .repeat__block__objects svg {
+  position: absolute;
+  left: 200px;
+}
+.main__block__repeat .repeat__block__objects .white__phone {
   max-width: 254px;
   max-height: 838px;
 }

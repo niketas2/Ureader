@@ -152,7 +152,7 @@ header {
 		.title {
 			display: flex;
 			gap: 25px;
-			padding-left: 60px;
+			padding-left: 100px;
 			p {
 				font-size: 52px;
 				font-style: normal;
@@ -171,6 +171,113 @@ header {
 			display: grid;
 			gap: 60px;
 			.read__block__info {
+				display: flex;
+				position: relative;
+				.text__info {
+					h1 {
+						margin-bottom: 10px;
+						font-size: 32px;
+						font-weight: 700;
+						letter-spacing: 1.6px;
+					}
+					p {
+						max-width: 170px;
+						font-size: 16px;
+						font-weight: 400;
+						letter-spacing: 0.8px;
+					}
+				}
+			}
+		}
+		svg {
+			position: absolute;
+			left: 200px;
+		}
+		.white__phone {
+			max-width: 254px;
+			max-height: 838px;
+		}
+	}
+}
+.main__block__share {
+	margin-top: 200px;
+	.share__block__title {
+		.title {
+			// display: flex;
+			// gap: 25px;
+			padding-left: 200px;
+			p {
+				font-size: 52px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: normal;
+				letter-spacing: 5.2px;
+			}
+		}
+	}
+	.share__block__objects {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 40px;
+		.share__block__text {
+			display: grid;
+			gap: 60px;
+			.share__block__info {
+				display: flex;
+				position: relative;
+				.text__info {
+					h1 {
+						margin-bottom: 10px;
+						font-size: 32px;
+						font-weight: 700;
+						letter-spacing: 1.6px;
+					}
+					p {
+						max-width: 170px;
+						font-size: 16px;
+						font-weight: 400;
+						letter-spacing: 0.8px;
+					}
+				}
+			}
+		}
+		svg {
+			position: absolute;
+			right: 200px;
+		}
+		.white__phone {
+			max-width: 254px;
+			max-height: 838px;
+		}
+	}
+}
+.main__block__repeat {
+	margin-top: 200px;
+	.repeat__block__title {
+		.title {
+			display: flex;
+			align-items: center;
+			gap: 25px;
+			padding-left: 120px;
+			p {
+				font-size: 52px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: normal;
+				letter-spacing: 5.2px;
+			}
+		}
+	}
+	.repeat__block__objects {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 40px;
+		.repeat__block__text {
+			display: grid;
+			gap: 60px;
+			.repeat__block__info {
 				display: flex;
 				position: relative;
 				.text__info {
