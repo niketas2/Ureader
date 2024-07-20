@@ -426,3 +426,88 @@ header .header--mid .read-share-repeat .text--block .repeat--block svg {
   font-weight: 400;
   letter-spacing: 0.9px;
 }
+
+.socials__block {
+  margin-top: 200px;
+}
+.socials__block .socials__block__name {
+  text-align: center;
+  font-size: 52px;
+  font-weight: 700;
+  letter-spacing: 5.2px;
+}
+.socials__block .socials {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.socials__block .socials .soc__one,
+.socials__block .socials .soc__two,
+.socials__block .socials .soc__three {
+  display: flex;
+  justify-content: center;
+}
+.socials__block .socials .soc__one .social__icon,
+.socials__block .socials .soc__two .social__icon,
+.socials__block .socials .soc__three .social__icon {
+  z-index: 1;
+}
+.socials__block .socials .soc__one .underline,
+.socials__block .socials .soc__two .underline,
+.socials__block .socials .soc__three .underline {
+  position: absolute;
+}
+
+footer {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .ureader {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  max-height: 50px;
+}
+footer .ureader h1 {
+  color: #cf664d;
+  font-size: 50px;
+  font-weight: 700;
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 0px 0px 0px 16px;
+  background: #fff;
+  margin-right: 10px;
+}
+footer .ureader p {
+  color: #fff;
+  font-size: 52px;
+  font-weight: 700;
+  letter-spacing: 3.64px;
+}
+footer .corp {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+footer .corp p {
+  color: #fff;
+  padding-top: 5px;
+  font-size: 20px;
+  font-weight: 700;
+}
+footer .corp h1 {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.9px;
+}
+footer .patron {
+  margin-top: 20px;
+  width: 31px;
+  height: 39px;
+  flex-shrink: 0;
+}
