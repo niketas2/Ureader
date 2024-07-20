@@ -339,3 +339,91 @@ header {
 		margin-top: 50px;
 	}
 }
+.team__block {
+	align-self: center;
+	margin-top: 150px;
+	.team__block__title {
+		text-align: center;
+		font-size: 52px;
+		font-weight: 700;
+		letter-spacing: 5.2px;
+		margin-bottom: 80px;
+	}
+	.memb__one,
+	.memb__three {
+		display: flex;
+		.memb__avatar {
+			img {
+				width: 150px;
+				height: 150px;
+				flex-shrink: 0;
+				border-radius: 0px 0px 40px 0px;
+				position: absolute;
+				margin-left: 70px;
+				box-shadow: 0px 0px 20px rgba(0, 0, 0, 2);
+				z-index: 1;
+			}
+			svg {
+				position: relative;
+				top: -10px;
+				right: 5px;
+			}
+		}
+		.memb__about {
+			.memb__name {
+				display: flex;
+				gap: 15px;
+				font-size: 32px;
+				font-weight: 700;
+				letter-spacing: 1.6px;
+				margin-bottom: 15px;
+			}
+			p {
+				font-size: 18px;
+				font-weight: 400;
+				letter-spacing: 0.9px;
+			}
+		}
+	}
+	.memb__two,
+	.memb__four {
+		margin-top: 80px;
+		display: flex;
+		gap: 40px;
+		.memb__avatar {
+			img {
+				width: 150px;
+				height: 150px;
+				flex-shrink: 0;
+				border-radius: 0px 0px 40px 0px;
+				position: absolute;
+				margin-left: 70px;
+				box-shadow: 0px 0px 20px rgba(0, 0, 0, 2);
+				z-index: 1;
+			}
+			svg {
+				position: relative;
+				top: -50px;
+				left: 0px;
+			}
+		}
+		.memb__about {
+			display: flex;
+			gap: 15px;
+			.memb__name {
+				h1 {
+					gap: 15px;
+					font-size: 32px;
+					font-weight: 700;
+					letter-spacing: 1.6px;
+					margin-bottom: 15px;
+				}
+				p {
+					font-size: 18px;
+					font-weight: 400;
+					letter-spacing: 0.9px;
+				}
+			}
+		}
+	}
+}

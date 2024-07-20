@@ -336,3 +336,93 @@ header .header--mid .read-share-repeat .text--block .repeat--block svg {
 .faq__block .how__we__block__four {
   margin-top: 50px;
 }
+
+.team__block {
+  align-self: center;
+  margin-top: 150px;
+}
+.team__block .team__block__title {
+  text-align: center;
+  font-size: 52px;
+  font-weight: 700;
+  letter-spacing: 5.2px;
+  margin-bottom: 80px;
+}
+.team__block .memb__one,
+.team__block .memb__three {
+  display: flex;
+}
+.team__block .memb__one .memb__avatar img,
+.team__block .memb__three .memb__avatar img {
+  width: 150px;
+  height: 150px;
+  flex-shrink: 0;
+  border-radius: 0px 0px 40px 0px;
+  position: absolute;
+  margin-left: 70px;
+  box-shadow: 0px 0px 20px black;
+  z-index: 1;
+}
+.team__block .memb__one .memb__avatar svg,
+.team__block .memb__three .memb__avatar svg {
+  position: relative;
+  top: -10px;
+  right: 5px;
+}
+.team__block .memb__one .memb__about .memb__name,
+.team__block .memb__three .memb__about .memb__name {
+  display: flex;
+  gap: 15px;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  margin-bottom: 15px;
+}
+.team__block .memb__one .memb__about p,
+.team__block .memb__three .memb__about p {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.9px;
+}
+.team__block .memb__two,
+.team__block .memb__four {
+  margin-top: 80px;
+  display: flex;
+  gap: 40px;
+}
+.team__block .memb__two .memb__avatar img,
+.team__block .memb__four .memb__avatar img {
+  width: 150px;
+  height: 150px;
+  flex-shrink: 0;
+  border-radius: 0px 0px 40px 0px;
+  position: absolute;
+  margin-left: 70px;
+  box-shadow: 0px 0px 20px black;
+  z-index: 1;
+}
+.team__block .memb__two .memb__avatar svg,
+.team__block .memb__four .memb__avatar svg {
+  position: relative;
+  top: -50px;
+  left: 0px;
+}
+.team__block .memb__two .memb__about,
+.team__block .memb__four .memb__about {
+  display: flex;
+  gap: 15px;
+}
+.team__block .memb__two .memb__about .memb__name h1,
+.team__block .memb__four .memb__about .memb__name h1 {
+  gap: 15px;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  margin-bottom: 15px;
+}
+.team__block .memb__two .memb__about .memb__name p,
+.team__block .memb__four .memb__about .memb__name p {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.9px;
+}
