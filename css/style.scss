@@ -306,3 +306,36 @@ header {
 		}
 	}
 }
+.faq__block {
+	align-self: center;
+	margin-top: 100px;
+	.faq__block__title {
+		text-align: center;
+		font-size: 52px;
+		font-weight: 700;
+		letter-spacing: 5.2px;
+		margin-bottom: 80px;
+	}
+	.how__we__block__one,
+	.how__we__block__two,
+	.how__we__block__four,
+	.how__we__block__three {
+		.how__we__block__one__title,
+		.how__we__block__two__title,
+		.how__we__block__four__title,
+		.how__we__block__three__title {
+			display: flex;
+			gap: 10px;
+			font-size: 28px;
+			font-weight: 700;
+			letter-spacing: 1.4px;
+			align-items: center;
+			margin-bottom: 15px;
+		}
+	}
+	.how__we__block__two,
+	.how__we__block__three,
+	.how__we__block__four {
+		margin-top: 50px;
+	}
+}

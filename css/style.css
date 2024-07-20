@@ -295,3 +295,44 @@ header .header--mid .read-share-repeat .text--block .repeat--block svg {
   max-width: 254px;
   max-height: 838px;
 }
+
+.faq__block {
+  align-self: center;
+  margin-top: 100px;
+}
+.faq__block .faq__block__title {
+  text-align: center;
+  font-size: 52px;
+  font-weight: 700;
+  letter-spacing: 5.2px;
+  margin-bottom: 80px;
+}
+.faq__block .how__we__block__one .how__we__block__one__title,
+.faq__block .how__we__block__one .how__we__block__two__title,
+.faq__block .how__we__block__one .how__we__block__four__title,
+.faq__block .how__we__block__one .how__we__block__three__title,
+.faq__block .how__we__block__two .how__we__block__one__title,
+.faq__block .how__we__block__two .how__we__block__two__title,
+.faq__block .how__we__block__two .how__we__block__four__title,
+.faq__block .how__we__block__two .how__we__block__three__title,
+.faq__block .how__we__block__four .how__we__block__one__title,
+.faq__block .how__we__block__four .how__we__block__two__title,
+.faq__block .how__we__block__four .how__we__block__four__title,
+.faq__block .how__we__block__four .how__we__block__three__title,
+.faq__block .how__we__block__three .how__we__block__one__title,
+.faq__block .how__we__block__three .how__we__block__two__title,
+.faq__block .how__we__block__three .how__we__block__four__title,
+.faq__block .how__we__block__three .how__we__block__three__title {
+  display: flex;
+  gap: 10px;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.faq__block .how__we__block__two,
+.faq__block .how__we__block__three,
+.faq__block .how__we__block__four {
+  margin-top: 50px;
+}
